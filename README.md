@@ -32,9 +32,9 @@ has_data
 
 Jobs are ranked using a rule-based scoring model:
 
-AI       → +2
-Python   → +2
-Data     → +1
+AI: +2
+Python: +2
+Data: +1
 
 ## 5. Ranking
 
