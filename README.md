@@ -48,12 +48,19 @@ outputs/top_jobs_YYYY-MM-DD.csv
 
 ## Project Structure
 src/
+
     fetch.py         Fetch jobs from API
+    
     clean.py         Clean and structure data
+    
     features.py      Create features
+    
     scoring.py       Rank jobs
+    
 main.py              Main pipeline
+
 requirements.txt     dependencies
+
 outputs/             Generated CSV files
 
 # How to run
