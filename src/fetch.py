@@ -1,8 +1,13 @@
 import requests
 import pandas as pd
+import os
+
+API_KEY = os.getenv("API_KEY")
+API_ID = os.getenv("API_ID")
+
 
 def fetch_jobs():
-    data = requests.get("http://api.adzuna.com/v1/api/jobs/gb/search?app_id={your_app_id}&app_key={your_app_key}&what_or=data,it,software,trainee,ai,python&results_per_page=20")
+    data = requests.get(f"http://api.adzuna.com/v1/api/jobs/gb/search?app_id={API_ID}&app_key={API_KEY}&what_or=data,it,software,trainee,ai,python&results_per_page=20")
 
     data_dict = data.json()
     results = data_dict['results']
