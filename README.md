@@ -48,6 +48,7 @@ outputs/top_jobs_YYYY-MM-DD.csv
 
 ## Project Structure
 src/
+
 ├── fetch.py        # Fetch jobs from API
 ├── clean.py        # Clean and structure data
 ├── features.py     # Feature engineering
