@@ -83,9 +83,10 @@ Instead of hardcoding keys in the source code, the system retrieves them from th
 
 To run the project locally:
 
-## 1. Set environment variables (Windows)
+## Set environment variables (Windows)
    
 setx API_KEY "your_api_key_here"
+
 setx APP_ID "your_app_id_here"
 
 After setting them, restart your terminal or IDE and run the program
