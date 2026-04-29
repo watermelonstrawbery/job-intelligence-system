@@ -93,11 +93,11 @@ After setting them, restart your terminal or IDE and run the program
 
 # Tech Stack
 
-Python
-Pandas
-Requests
-REST API
-Windows Task Scheduler
+- Python
+- Pandas
+- Requests
+- REST API
+- Windows Task Scheduler
 
 # Project Goal
 To build an automated end-to-end data pipeline that collects job data, processes it, and ranks relevant opportunities for tech roles.
