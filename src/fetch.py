@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 def fetch_jobs():
-    data = requests.get("http://api.adzuna.com/v1/api/jobs/gb/search?app_id=dae99f52&app_key=af6f3bf30e451d7ad6b320abdfab56d0&what_or=data,it,software,trainee,ai,python&results_per_page=20")
+    data = requests.get("http://api.adzuna.com/v1/api/jobs/gb/search?app_id={your_app_id}&app_key={your_app_key}&what_or=data,it,software,trainee,ai,python&results_per_page=20")
 
     data_dict = data.json()
     results = data_dict['results']
