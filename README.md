@@ -49,13 +49,13 @@ outputs/top_jobs_YYYY-MM-DD.csv
 ## Project Structure
 src/
 
-   fetch.py        (Fetch jobs from API)
+      fetch.py        (Fetch jobs from API)
    
-   clean.py        (Clean and structure data)
+      clean.py        (Clean and structure data)
    
-   features.py     (Feature engineering)
+      features.py     (Feature engineering)
    
-   scoring.py      (Ranking logic)
+      scoring.py      (Ranking logic)
 
 main.py             (Main pipeline)
 
