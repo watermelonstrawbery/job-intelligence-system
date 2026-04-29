@@ -78,10 +78,15 @@ outputs/top_jobs_YYYY-MM-DD.csv
 The script can be scheduled to run automatically using Windows Task Scheduler, generating updated job results daily.
 
 # API
-This project uses a public jobs REST API to fetch job listings in real time.
+This project uses the Adzuna Job Search API to retrieve job listings in real time.
 
 - Data includes: title, company, location, and description
 - Data is retrieved in JSON format using HTTP requests
+  
+To use the API, you need to create your own account and generate:
+
+- API_KEY  
+- APP_ID  
 
 This project uses environment variables to securely store sensitive information such as API credentials.
 Instead of hardcoding keys in the source code, the system retrieves them from the operating system using os.getenv().
